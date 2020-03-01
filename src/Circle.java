@@ -18,6 +18,10 @@ public class Circle extends Figure implements Moveable{
         return y;
     }
 
+    public int getR() {
+        return r;
+    }
+
     @Override
     public void move(int dx, int dy) {
         x += dx;
